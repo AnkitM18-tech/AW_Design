@@ -4,13 +4,58 @@
     padding:0;
 }
 
-@font-face{
-    font-family:Reef;
-    src:url(../fonts/Reef.otf);         /*we don't have to use the web safe font if we use the rule.*/
+body{
+    color: #181e2c;
 }
 
-body{
-    font-family: "Reef",sans-serif;
-    color: #1e272e;
-    text-rendering: optimizeLegibility;       /* used for rendering text */
+body h1,body h2,body h3,body h4{
+    font-family:"Calistoga",cursive;
 }
+
+body p{
+    font-family:"Roboto",sans-serif;
+}
+
+li{
+    list-style:none;
+    display:inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* header section */
+header{
+    width:100%;
+    background-color: #181e2c;
+    color:#e5ebf8;
+}
+
+.heading-div{
+    max-width:1300px;
+    display:flex;
+    margin:0 auto;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.heading-div h1{
+    font-size:35px;
+    letter-spacing:2px;
+}
+
+.nav-menu a{
+color: #e5ebf8;;
+padding:31px 30px;
+font-size:20px;
+transition: background-color 0.3s ease-in-out;
+}
+
+.nav-menu a:hover{
+    background-color:#f53b57;
+}
+
