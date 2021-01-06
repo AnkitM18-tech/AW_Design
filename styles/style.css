@@ -59,9 +59,11 @@ transition: background-color 0.3s ease-in-out;
     background-color:#f53b57;
 }
 
+/* image-section */
+
 .section-image{
     height:60vh;
-    width:100vw;
+    width:100%;
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(../imgs/2.jpg);
     background-repeat:no-repeat;
     background-size:cover;
@@ -84,4 +86,39 @@ transition: background-color 0.3s ease-in-out;
     letter-spacing:1px;
     font-size: 20px;
     word-spacing: 3px;
+}
+
+/* about-me section */
+.about-me{
+    text-align:center;
+    margin:70px ;
+}
+
+.about-me img{
+    border:4px solid #f53b57;
+    cursor:pointer;
+    filter:grayscale(100%);
+    transition: all 0.3s linear;
+}
+
+.about-me img:hover{
+    filter:none;
+    border-radius:50%;
+}
+
+.about-me h2{
+    margin-top:20px;
+    font-size:40px;
+    text-transform:uppercase;
+}
+
+.about-me h3{
+    margin-top:40px;
+    font-size:30px;
+    color:#f53b57;
+}
+
+.about-me p{
+    margin:30px auto;
+    font-size:18px;
 }
