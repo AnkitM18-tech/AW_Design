@@ -59,3 +59,29 @@ transition: background-color 0.3s ease-in-out;
     background-color:#f53b57;
 }
 
+.section-image{
+    height:60vh;
+    width:100vw;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(../imgs/2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    color:#e5ebf8;
+}
+
+.section-image h2{
+    font-size:50px;
+    letter-spacing:2px;
+    word-spacing: 5px;
+}
+
+.section-image p{
+    letter-spacing:1px;
+    font-size: 20px;
+    word-spacing: 3px;
+}
