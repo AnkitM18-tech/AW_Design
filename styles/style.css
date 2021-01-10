@@ -157,3 +157,31 @@ transition: background-color 0.3s ease-in-out;
 .ability p{
     margin-top:30px;
 }
+
+.gallery{
+    background-color:#181e2c;
+    width:100%;
+    text-align:center;
+    color:#e5ebf8;
+    padding:80px 0;
+}
+
+.gallery h3{
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-size: 35px;
+}
+
+.work-gallery{
+    display:flex;
+    flex-flow: wrap;
+    justify-content:space-around;
+    margin:0 auto;
+    max-width:1400px;
+}
+
+.work-gallery img{
+    padding-bottom:20px;
+    width:32%;
+}
