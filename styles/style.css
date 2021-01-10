@@ -25,6 +25,11 @@ a{
     text-decoration: none;
 }
 
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
 
 
 /* header section */
@@ -121,4 +126,34 @@ transition: background-color 0.3s ease-in-out;
 .about-me p{
     margin:30px auto;
     font-size:18px;
+}
+
+/* Abilities Section */
+.abilities{
+    display:flex;
+    text-align:center;
+    justify-content:space-between;
+    margin:100px auto;
+}
+
+.ability{
+    margin-right: 30px;
+}
+
+.ability:last-child{
+    margin:0;
+}
+
+.ability h3{
+    font-size: 25px;
+}
+
+.ability i{
+    color:#f53b57;
+    font-size: 70px;
+    margin-bottom: 20px;;
+}
+
+.ability p{
+    margin-top:30px;
 }
