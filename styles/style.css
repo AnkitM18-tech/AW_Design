@@ -157,6 +157,8 @@ transition: background-color 0.3s ease-in-out;
 .ability p{
     margin-top:30px;
 }
+/* 
+gallery section */
 
 .gallery{
     background-color:#181e2c;
@@ -184,4 +186,66 @@ transition: background-color 0.3s ease-in-out;
 .work-gallery img{
     padding-bottom:20px;
     width:32%;
+}
+
+/* contact form */
+.contact{
+    background-color:#f53b57;
+    width:100%;
+    text-align:center;
+    color: #e5ebe5;
+    padding:80px 0;
+}
+
+.contact h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-bottom: 25px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.contact form{
+    max-width:1400px;
+    margin:0 auto;
+}
+
+.contact input,.contact textarea{
+    width:100%;
+    margin:15px auto;
+    border-radius: 5px;
+    padding:8px;
+    font-size: 16px;
+    background-color: #e5ebf8;
+}
+
+.contact textarea{
+    resize:none;
+}
+
+input:focus,textarea:focus{
+    background-color: #18122c;
+    color:#e5ebf8;
+}
+
+form .button{
+    border-radius: 8px;
+    border:2px solid #e5ebf8;
+    font-size:20px;
+    background-color: transparent;
+    color:#e5ebf8;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+
+form .button:hover{
+    background-color: #e5ebf8;
+    color:#f53b57;
+    transform:scale(0.95);
+}
+
+/* footer section */
+
+footer{
+    
 }
