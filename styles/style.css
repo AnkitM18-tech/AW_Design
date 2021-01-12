@@ -247,5 +247,8 @@ form .button:hover{
 /* footer section */
 
 footer{
-    
+    text-align: center;
+    background-color: #181e2c;
+    color:#e5ebe5;
+    padding:20px;
 }
