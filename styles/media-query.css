@@ -1,0 +1,137 @@
+/* Media Query */
+
+/* Only applicable to max-width:1200px */
+
+@media all and (max-width:1200px){
+    /* everything acceptable */
+}
+
+/* Only applicable to max-width:992px */
+
+@media all and (max-width:992px){
+    .heading-div h1{
+        font-size: 25px;
+    }
+
+    .nav-menu a{
+        font-size: 16px;
+        padding:26px 25px;
+    }
+
+    .section-image h2{
+        font-size: 35px;
+    }
+
+    .section-image p{
+        font-size: 16px;
+    }
+
+    .about-me img{
+        width:32%;
+    }
+
+    .about-me h2{
+        font-size:25px;
+    }
+
+    .about-me h3{
+        font-size: 20px;
+    }
+
+    .about-me p{
+        font-size: 16px;
+        max-width:700px;
+    }
+
+    .abilities{
+        flex-direction: column;
+    }
+
+    .container{
+        max-width:600px;
+    }
+    
+
+    .ability{
+        margin-right: 0;
+    }
+
+    .ability i{
+        font-size: 45px;
+        margin-top:40px;
+    }
+
+    .ability p{
+        margin-top:15px;
+    }
+
+    .gallery h3{
+        font-size: 25px;
+    }
+
+    .work-gallery{
+        justify-content:space-around;
+    }
+
+    .work-gallery img{
+        width:48%;
+    }
+
+    .contact h2{
+        font-size:30px;
+    }
+
+    .contact form{
+        max-width: 600px;
+    }
+}
+
+/* Only applicable to max-width:768px */
+
+@media all and (max-width:768px){
+    /* can be done as above section */
+    .heading-div h1{
+        font-size: 20px;
+    }
+
+    .heading-div{
+        flex-direction:column;
+    }
+
+    .nav-menu{
+        margin-top:20px;
+    }
+}
+
+
+/* Only applicable to max-width:480px */
+
+@media all and (max-width:480px){
+    /* can be done as above section */
+    .heading-div{
+        flex-direction:column;
+    }
+
+    .heading-div h1{
+        font-size: 20px;
+    }
+
+    .nav-menu{
+        margin-top:20px;
+    }
+
+    .nav-menu a{
+        padding:20px 10px;
+    }
+
+    .work-gallery img{
+        width:96%;
+    }
+}
+
+
+/* Only applicable to max-width:320px */
+
+@media all and (max-width:320px){
+    /* can be done as above section */
+}
